@@ -16,7 +16,33 @@ import {
 
 const Technologies = () => (
   <Section nopadding id="tech">
+    <SectionDivider />
+    <br />
     <SectionTitle>Technologies</SectionTitle>
+    <SectionText>I have worked on different web technologies</SectionText>
+    <List>
+      <ListItem>
+        <DiReact size="3rem" />
+        <ListTitle>Front-End</ListTitle>
+        <ListParagraph>
+          Experience with <br /> ReactJS, VueJS, NextJS
+        </ListParagraph>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size="3rem" />
+        <ListTitle>Back-End</ListTitle>
+        <ListParagraph>
+          Experience with <br /> NodeJS, ExpressJS
+        </ListParagraph>
+      </ListItem>
+      <ListItem>
+        <DiZend size="3rem" />
+        <ListTitle>UI/UX</ListTitle>
+        <ListParagraph>
+          Experience with <br /> tools like Figma
+        </ListParagraph>
+      </ListItem>
+    </List>
   </Section>
 );
 
