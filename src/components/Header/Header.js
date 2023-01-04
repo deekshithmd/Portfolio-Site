@@ -21,7 +21,7 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
+      <Link href="/" legacyBehavior>
         <a
           style={{
             display: "flex",
@@ -31,7 +31,7 @@ const Header = () => (
           }}
         >
           <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+          <Span>Deekshith M D</Span>
         </a>
       </Link>
     </Div1>
@@ -55,13 +55,13 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://www.github.com">
+      <SocialIcons href="https://github.com/deekshithmd">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.twitter.com">
+      <SocialIcons href="https://twitter.com/deekshith_md">
         <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com">
+      <SocialIcons href="https://www.linkedin.com/in/deekshith-m-d/m">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
     </Div3>

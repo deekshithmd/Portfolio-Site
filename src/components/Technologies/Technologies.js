@@ -19,7 +19,11 @@ const Technologies = () => (
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>I have worked on different web technologies</SectionText>
+    <SectionText>
+      I am skilled in web technologies like HTML, CSS, Javascript, ReactJS,
+      Redux Toolkit, Typescript, Version control tool Github, API Testing tool
+      Postman, Web hosting platform netlify, vercel.
+    </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
