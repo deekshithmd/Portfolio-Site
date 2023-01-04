@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiCloud9, DiFirebase, DiGit, DiReact, DiZend } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -27,23 +27,25 @@ const Technologies = () => (
     <List>
       <ListItem>
         <DiReact size="3rem" />
-        <ListTitle>Front-End</ListTitle>
+        <ListTitle>Front End</ListTitle>
         <ListParagraph>
-          Experience with <br /> ReactJS, VueJS, NextJS
+          Experienced in Front End Technologies like <br /> HTML, CSS,
+          Javascript, ReactJS, Context, Redux, VueJS, NextJS, Material UI,
+          Styled Components, Sass
         </ListParagraph>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
-        <ListTitle>Back-End</ListTitle>
+        <DiGit size="3rem" />
+        <ListTitle>Version Control</ListTitle>
         <ListParagraph>
-          Experience with <br /> NodeJS, ExpressJS
+          Experience with <br /> Git, Github
         </ListParagraph>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
-        <ListTitle>UI/UX</ListTitle>
+        <DiCloud9 size="3rem" />
+        <ListTitle>Hosting Technologies</ListTitle>
         <ListParagraph>
-          Experience with <br /> tools like Figma
+          Experience with <br /> Netlify, Vercel
         </ListParagraph>
       </ListItem>
     </List>

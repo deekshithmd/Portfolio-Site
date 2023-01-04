@@ -16,8 +16,8 @@ const Hero = () => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        I am passionate developer specialized in frontend technologies like
-        HTML, CSS ,Javascript, React, VueJS, NextJS
+        I am a passionate web developer specialized in frontend technologies
+        like HTML, CSS ,Javascript, React, VueJS, NextJS
       </SectionText>
       <Button
         onClick={() => (window.location = "https://github.com/deekshithmd")}

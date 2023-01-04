@@ -67,8 +67,12 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am a passionate frontend developer having experience in React, VueJS,
-        NextJs
+        I have completed my B.E in Computer Science and Engineering from NMAM
+        Institute of Technology, Nitte. Later I joined Wipro as Project Engineer
+        and worked for one year. While working there I decided to continue my
+        career in web development so started learning by building mini projects
+        and later joined FullStack(MERN) web development bootcamp called
+        neogCamp.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
